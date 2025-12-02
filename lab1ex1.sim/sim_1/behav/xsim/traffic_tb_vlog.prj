@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../lab1ex1.srcs/sources_1/imports/Downloads/clock_div.v" \
+"../../../../lab1ex1.srcs/sources_1/imports/Downloads/traffic_fsm.v" \
+"../../../../lab1ex1.srcs/sources_1/imports/Downloads/traffic_top.v" \
+"../../../../lab1ex1.srcs/sources_1/imports/Downloads/traffic_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

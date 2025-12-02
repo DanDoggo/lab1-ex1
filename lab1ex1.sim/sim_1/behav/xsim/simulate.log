@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Time=0 SW=10 BTN=0000 | A_Light=010 B_Light=100 | SegA= 3 (G_TimeA= 3) | SegB= 5 (G_TimeB= 3) | State=00
+Time=200000 SW=00 BTN=0000 | A_Light=010 B_Light=100 | SegA= 3 (G_TimeA= 3) | SegB= 5 (G_TimeB= 3) | State=00
+Time=300000 SW=01 BTN=0000 | A_Light=010 B_Light=100 | SegA= 3 (G_TimeA= 3) | SegB= 5 (G_TimeB= 3) | State=00
+Time=305000 SW=01 BTN=0000 | A_Light=010 B_Light=100 | SegA= 3 (G_TimeA= 3) | SegB= 3 (G_TimeB= 3) | State=00
